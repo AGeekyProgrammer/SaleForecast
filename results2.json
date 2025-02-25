@@ -1,0 +1,44 @@
+[
+    {
+        "Original dataset": {
+            "Logistic Regression": 43323.94993668558,
+            "Random Forest": 39297.47758229592,
+            "Gradient Boosting": 69300.00935374557,
+            "SVM": 66520.19972131375,
+            "KNN": 56653.456598027326,
+            "Decision Tree": 51977.390778154906,
+            "TensorFlow Decision Forest": 21212.21426421208,
+            "Cat Boost": 25353.86961851577
+        },
+        "dataset2": {
+            "Logistic Regression": 77579.81755844639,
+            "Random Forest": 39334.475324978266,
+            "Gradient Boosting": 70422.184125718,
+            "SVM": 70132.29496777849,
+            "KNN": 76983.67440568162,
+            "Decision Tree": 56951.02460477991,
+            "TensorFlow Decision Forest": 22765.809463668276,
+            "Cat Boost": 24536.036452332213
+        }
+    },
+    {
+        "TFDF initial": 21212.21426421208,
+        "TFDF optimized": 20590.15383982684,
+        "TFDF_bestValues": {
+            "num_trees": 550,
+            "max_depth": 6,
+            "min_examples": 5,
+            "shrinkage": 0.10021994445444977,
+            "honest": false
+        }
+    },
+    {
+        "TFDF_bestValues": {
+            "num_trees": 400,
+            "max_depth": 6,
+            "min_examples": 3,
+            "shrinkage": 0.10311219054755805,
+            "honest": false
+        }
+    }
+]
